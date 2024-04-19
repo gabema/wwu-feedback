@@ -7,6 +7,8 @@
 - Dotnet 8
 - ASP.NET Core MVC Web App
 - VS Code
+    - `mssql` extension - Provides Database support
+- Docker (only needed for local/offline development)
 - [Excalidraw](https://excalidraw.com/)
 
 ## Libraries
@@ -16,6 +18,7 @@
 
 ## Project startup commands
 
+### Initial Repo creation
 To create the shell of the project start with the following commands:
 ```
 mkdir wwu-feedback
@@ -55,3 +58,20 @@ cd ..\..
 dotnet build
 dotnet test
 ```
+
+### Create a Azure SQL local database project/instance
+
+Create a local database instance that will behave like our Azure SQL Database that we'll eventually deploy to.
+
+### Initialize EF Core Database project
+
+```
+cd .\src\gabema.wwufeedback.migrations\
+dotnet add package Microsoft.EntityFrameworkCore -s https://api.nuget.org/v3/index.json
+dotnet add package Microsoft.EntityFrameworkCore.Design -s https://api.nuget.org/v3/index.json
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer -s https://api.nuget.org/v3/index.json
+```
+
+## Helpful resources
+
+[Local Azure SQL DB Development](https://learn.microsoft.com/en-us/azure/azure-sql/database/local-dev-experience-quickstart?view=azuresql)
