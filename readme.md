@@ -62,6 +62,11 @@ dotnet test
 ### Create a Azure SQL local database project/instance
 
 Create a local database instance that will behave like our Azure SQL Database that we'll eventually deploy to.
+1. Make sure Docker is installed and up to date.
+1. Make sure VS Code mssql extension is installed.
+1. Create a database project.
+1. Publish the database project to a Azure SQL emulator.
+1. Connect to the database via SQL Server tab.
 
 ### Initialize EF Core Database project
 
