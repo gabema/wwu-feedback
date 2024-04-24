@@ -1,0 +1,10 @@
+
+
+### Submit 
+POST http://localhost:5250/api/Topic/1
+Content-Type: application/json
+
+{
+    "rating": 3,
+    "feedback": "Cool presentation"
+}

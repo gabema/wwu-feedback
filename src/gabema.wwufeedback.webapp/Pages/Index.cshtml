@@ -7,4 +7,20 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    
+    <form method="post">
+        <div class="form-group">
+            <label for="rating">Rating:</label>
+            <input type="range" id="rating" name="Rating" min="1" max="5" step="1" />
+        </div>
+
+        <div class="form-group">
+            <label for="feedback">Additional Feedback:</label>
+            <textarea id="feedback" name="AdditionalFeedback"></textarea>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
 </div>
