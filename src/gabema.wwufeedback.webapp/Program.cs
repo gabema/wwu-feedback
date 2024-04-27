@@ -1,3 +1,6 @@
+using gabema.wwufeedback.migrations;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,6 +8,14 @@ builder.Services.AddRazorPages();
 
 // Add API controllers
 builder.Services.AddControllersWithViews();
+
+builder.Services.WithEfCoreContext();
+
+// Adding DB Context
+builder.Services.AddDbContext<FeedbackContext>(options =>
+{
+    options.UseSqlServer("");
+});
 
 var app = builder.Build();
 

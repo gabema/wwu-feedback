@@ -1,4 +1,4 @@
-namespace gabema.wwufeedback.migrations.Models;
+namespace gabema.wwufeedback.domain.Models;
 
 public class Vote
 {

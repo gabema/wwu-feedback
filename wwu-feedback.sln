@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gabema.wwufeedback.unittest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "feedback", "feedback\feedback.sqlproj", "{B7397B90-7070-4151-BC0B-46425E780F66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gabema.wwufeedback.domain", "src\gabema.wwufeedback.domain\gabema.wwufeedback.domain.csproj", "{98CBE14E-C5B3-4FCE-BB21-69813C5387D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,10 +42,15 @@ Global
 		{B7397B90-7070-4151-BC0B-46425E780F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7397B90-7070-4151-BC0B-46425E780F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7397B90-7070-4151-BC0B-46425E780F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CBE14E-C5B3-4FCE-BB21-69813C5387D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CBE14E-C5B3-4FCE-BB21-69813C5387D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CBE14E-C5B3-4FCE-BB21-69813C5387D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CBE14E-C5B3-4FCE-BB21-69813C5387D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D9724C8D-8955-4DC8-833D-2B2DD257E61E} = {79C7EFF2-1A56-474E-A6FD-B63C97B732E1}
 		{AA035F6D-5F2B-4A4B-BA9C-FF66D4FF20AC} = {79C7EFF2-1A56-474E-A6FD-B63C97B732E1}
 		{A119F8E9-987D-4A95-B789-A23E9C504DA5} = {61C25813-E98D-4461-A1B4-9CD2FD77D949}
+		{98CBE14E-C5B3-4FCE-BB21-69813C5387D8} = {79C7EFF2-1A56-474E-A6FD-B63C97B732E1}
 	EndGlobalSection
 EndGlobal

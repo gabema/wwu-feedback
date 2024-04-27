@@ -1,6 +1,6 @@
 ﻿namespace gabema.wwufeedback.migrations;
 
-using gabema.wwufeedback.migrations.Models;
+using gabema.wwufeedback.domain.Models;
 using Microsoft.EntityFrameworkCore;
 
 public class FeedbackContext : DbContext
@@ -9,6 +9,10 @@ public class FeedbackContext : DbContext
     public DbSet<Vote> Votes { get; set; }
 
     public FeedbackContext() : base()
+    {
+    }
+
+    public FeedbackContext(DbContextOptions<FeedbackContext> options) : base(options)
     {
     }
 

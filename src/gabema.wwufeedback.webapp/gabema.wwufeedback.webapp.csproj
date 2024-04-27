@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\gabema.wwufeedback.migrations\gabema.wwufeedback.migrations.csproj" />
+    <ProjectReference Include="..\gabema.wwufeedback.domain\gabema.wwufeedback.domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
